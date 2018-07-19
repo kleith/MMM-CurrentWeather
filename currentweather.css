@@ -1,0 +1,36 @@
+.currentweather .weathericon,
+.currentweather .fa-home {
+  font-size: 75%;
+  line-height: 65px;
+  display: inline-block;
+  -ms-transform: translate(0, -3px); /* IE 9 */
+  -webkit-transform: translate(0, -3px); /* Safari */
+  transform: translate(0, -3px);
+}
+
+.currentweather .humidityIcon {
+  padding-right: 4px;
+}
+
+.currentweather .humidity-padding {
+  padding-bottom: 6px;
+}
+
+.currentweather .temperature-frozen {
+  color: #0070ff;
+}
+.currentweather .temperature-cold {
+  color: lightblue;
+}
+.currentweather .temperature-nice {
+  color: lightgreen;
+}
+.currentweather .temperature-warm {
+  color: yellow;
+}
+.currentweather .temperature-hot {
+  color: orange;
+}
+.currentweather .temperature-hell {
+  color: red;
+}
